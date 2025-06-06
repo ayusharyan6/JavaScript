@@ -1,7 +1,6 @@
 // singleton  => when u make by using constructor ,,,ek hi tarah k objects banta h..
 
 // objects literals
-// object making - 1st. method
 
 const mySym = Symbol("key1")
 const jsUser = {
