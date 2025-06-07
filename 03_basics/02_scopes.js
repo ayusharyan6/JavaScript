@@ -22,3 +22,12 @@ if(true){
 }
 console.log(y);  // this is global scope u can access the variable outside the block code
 
+if(true){
+    const userName = "ayush"
+    if(userName==="ayush"){
+        const website = "youtube"
+        console.log(userName+website); //only this will run. because it is inside the block
+    }
+    // console.log(website);
+}
+// console.log(userName);
