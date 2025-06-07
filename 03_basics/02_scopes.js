@@ -15,10 +15,10 @@ if(true){
 
 }
 console.log(d);
-//  this is block scope => u cannot fetch block scope outside the block code
+//  this is block scope => u cannot access varibale outside the block code
 var y = 44
 if(true){
     let x = 55
 }
-console.log(y);  // this is global scope u can access the value outside the block code
+console.log(y);  // this is global scope u can access the variable outside the block code
 
