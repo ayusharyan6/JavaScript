@@ -8,3 +8,4 @@
 (function chai() {
     console.log(`DB connected`);   
 }) ();
+//  some more examples included will discuss later
