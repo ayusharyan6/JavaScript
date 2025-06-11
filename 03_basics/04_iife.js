@@ -8,5 +8,9 @@
 (function chai() {
     console.log(`DB connected`);   
 }) ();
+
+(function ayush() {
+    console.log("IIFE DONE");
+}) ();
 //  some more examples included will discuss later
-// 
+// done
