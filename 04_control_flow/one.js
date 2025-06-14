@@ -64,3 +64,11 @@ if(isUserLoggedIn && debitCard ){
     console.log("not allowed for shooping");
     
 }
+const onlinePayment = true;
+const cash = true
+if(onlinePayment || cash){
+    console.log("u can do shoping");
+}else{
+    console.log("not allowed");
+    
+}
