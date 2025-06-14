@@ -1,6 +1,6 @@
 //  if statement
-const isUserLoggedIn = true
-const temperature = 41
+// const isUserLoggedIn = true
+// const temperature = 41
 
 // if(temperature < 50){
 //     console.log("less than 50");
@@ -8,12 +8,12 @@ const temperature = 41
 // console.log("temperature is greater than 50");
 
 
-if(temperature < 50){
-    console.log("less than 50");
-}
-else{
-    console.log("temperature is greater than 50");    
-}
+// if(temperature < 50){
+//     console.log("less than 50");
+// }
+// else{
+//     console.log("temperature is greater than 50");    
+// }
 
 const score = 200;
 if(score > 100){
@@ -52,4 +52,15 @@ if(balance < 500){
     
 }else{
     console.log("less than 12200");
+}
+
+const isUserLoggedIn = true
+const debitCard = true
+
+if(isUserLoggedIn && debitCard ){
+    console.log("allowed for shopping");
+    
+}else{
+    console.log("not allowed for shooping");
+    
 }
