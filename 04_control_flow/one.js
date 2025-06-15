@@ -134,3 +134,10 @@ let var4
 var4 = undefined??15
 console.log(var4);
 
+// ternary operator  
+// condition ? true : false
+
+const iceTeaPrice = 100
+iceTeaPrice >= 80 ? console.log("less than 80 "): console.log("more than 80");
+
+// ternary and Nullish coalescing operator both are different
