@@ -119,3 +119,18 @@ switch(month){
             break
 }
 // 
+// Nullish Coalescing Operator (??): null undefined
+
+// Nullish Coalescing Operator -> operator is a logical operator that returns its right-hand side operand when its left-hand side operand is null or undefined, and otherwise returns its left-hand side operand.
+let val1;
+val1 = 5 ?? 10
+console.log(val1);
+
+let val3
+val3 = null??10
+console.log(val3);
+
+let var4 
+var4 = undefined??15
+console.log(var4);
+
