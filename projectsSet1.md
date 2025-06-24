@@ -24,9 +24,15 @@ buttons.forEach(function (button) {
     if (e.target.id === 'yellow') {
       body.style.backgroundColor = e.target.id;
     }
-    
+
   });
 });
  ```
  [Click here] (https://stackblitz.com/edit/vitejs-vite-7ap6l1vy?file=index.html)
+
+<!-- Project 1 is done -->
+ # project 2
+
+ <!-- BMI CALCULATOR -->
+  
   
