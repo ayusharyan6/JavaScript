@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazing Images</title>
+</head>
+<body style = "background-color: #414141 color(srgb rgb(129, 199, 25) green blue);">
+    <div>
+        <ul id = "Images">
+            <li><img width="200px" id = "Photoshop" src="https://images.pexels.com/photos/30221503/pexels-photo-30221503.jpeg" alt="Photoshop">
+            </li>
+            <li><img width="200px" id = "Japan" src="https://images.pexels.com/photos/402028/pexels-photo-402028.jpeg" alt="Japan">
+            </li>
+            <li><img width="200px" id = "river" src="https://images.pexels.com/photos/30052108/pexels-photo-30052108.jpeg" alt="river">
+            </li>
+            <li><img width="200px" id = "owl" src="https://images.pexels.com/photos/86596/owl-bird-eyes-eagle-owl-86596.jpeg" alt="owl">
+            </li>
+            <li><img width="200px" id = "COC" src="https://images.pexels.com/photos/5792506/pexels-photo-5792506.jpeg" alt="COC">
+            </li>
+            <li> <a style = "color: aliceblue"href = "https://google.com" id = "GOOGLE"> GOOGLE </a></li>
+        </ul>
+    </div>
+</body>
+<script>
+    // document.getElementById('owl').onclick = function(){
+    //     alert("Owl clicked")
+    // }
+    // document.getElementById('owl').addEventListener('click', function(){
+    //     alert("Owl Clicked")
+    // })
+
+    // event bubbling
+    // document.getElementById('images').addEventListener('click', function(e){
+    //     console.log("Clicked inside the ul");
+    // },false)
+    // document.getElementById('owl').addEventListener('click', function(e){
+    //     console.log("owl clicked");
+    // },false)
+    // // to stop event bubbling used stop Propagation
+    // document.getElementById('owl').addEventListener('click', function(e){
+    //     console.log("Owl clicked");
+    //     e.stopPropagation();
+    // },false)
+    // document.getElementById('google').addEventListener('click',function(e){
+    //     e.preventDefault() // =>method
+    // },false)
+    document.querySelector('#images').addEventListener('click',function(e){
+        console.log(e);
+        
+    },false)
+</script>
+</html>
